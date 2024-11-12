@@ -1,0 +1,23 @@
+.navbar-link {
+  display: flex;           /* Flex layout for icon and text alignment */
+  align-items: center;     /* Vertically center icon and text */
+  margin-right: 15px;      /* Space between each link */
+  padding: 8px 12px;       /* Padding around the link */
+  text-decoration: none;   /* Remove underline from links */
+  color: black;            /* Set the link color */
+}
+
+.navbar-link mat-icon {
+  margin-right: 2px;       /* Space between icon and text */
+  font-size: 20px;         /* Adjust icon size if needed */
+  vertical-align: middle;  /* Aligns icon with text */
+}
+
+.navbar-link:hover {
+  background-color: rgba(28, 84, 188, 0.1); /* Light hover effect */
+  border-radius: 4px;       /* Rounded corners */
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
